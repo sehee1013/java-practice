@@ -6,6 +6,7 @@ public class Q15 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        sc.close();
         // total 변수 선언하여 1부터 입력받은 수 n 사이의 모든 짝수의 합 구하기
         // 1부터 n까지 반복 -> 짝수인 경우 total에 더하기
         int total = 0;
